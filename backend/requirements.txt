@@ -1,0 +1,44 @@
+fastapi==0.117.1
+uvicorn==0.37.0
+pydantic==2.11.9
+pydantic-settings==2.11.0
+python-dotenv==1.1.1
+starlette==0.48.0
+
+# LangChain / Agent stack
+langchain==0.3.27
+langchain-core==0.3.76
+langchain-community==0.3.29
+langchain-groq==0.3.8
+langchain-text-splitters==0.3.11
+langgraph==0.6.7
+langgraph-checkpoint==2.1.1
+langgraph-prebuilt==0.6.4
+langgraph-sdk==0.2.9
+langsmith==0.4.31
+
+# Retrieval & ML (Python 3.10 safe)
+sentence-transformers==2.5.1
+faiss-cpu>=1.9.0
+numpy>=1.26.4
+scikit-learn>=1.5.0
+
+# LLM & APIs
+groq==0.31.1
+tavily-python==0.3.3
+requests==2.32.5
+
+# Torch (CPU-only)
+torch>=2.4.0
+
+# Utilities
+orjson==3.11.3
+tenacity==9.1.2
+typing_extensions==4.15.0
+PyYAML==6.0.2
+
+langchain-huggingface==0.3.1
+langchain-tavily==0.1.5
+
+# Streamlit for UI
+streamlit==1.43.2

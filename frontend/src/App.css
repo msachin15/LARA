@@ -1,0 +1,2 @@
+/* Extra global stylesheet imported by older Vite templates. Tailwind is also imported in index.css. */
+@import "tailwindcss";

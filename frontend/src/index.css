@@ -1,0 +1,2 @@
+/* Global styles. Tailwind is loaded here; component classes live in the JSX files. */
+@import "tailwindcss";
